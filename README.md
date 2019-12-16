@@ -10,7 +10,7 @@ HealthyVerse uses and blockchain and decentralised infrastructure for security, 
 
 
 ## Gettings Started
-1. Clone the repository: `sudo git clone https://github.com/thesachinmittal/HealthyVerse`
+1. Clone the repository: `sudo git clone https://github.com/thesachinmittal/HealthyVerse-BTP
 2. Install the dependencies: `npm i`
 3. Edit your enviromental variables at thee file `.env`
 4. Run the DB migrations to your local database 
