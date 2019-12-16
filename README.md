@@ -1,8 +1,6 @@
 # HealthyVerse
 ###### An open, peer-to-peer and offline healthcare system backed by a distributed infrastructure 
 
-## Introduction
-HealthyVerse solves frontline problems in healthcare using blockchain and decentralised technology. 
 
 ## Technology
 HealthyVerse uses and blockchain and decentralised infrastructure for security, accountability and connectivity. The tech stack contains:
