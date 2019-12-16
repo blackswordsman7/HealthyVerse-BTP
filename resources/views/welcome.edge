@@ -1,0 +1,344 @@
+@layout('layouts.master')
+@section('content')
+@section('css')
+{{style('css/init')}}
+@endsection
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+</script>
+<div class="row jumbotron">
+  <div class="col-md-6">
+    <center>
+      <img src="/img/logo.png" alt="" style="height:300px">
+    </center>
+  </div>
+  <div class="col-md-6">
+    <h1>Welcome to HealthyVerse!</h1>
+    <p>HealthyVerse is an open, peer-to-peer and offline healthcare system backed by a distributed infrastructure
+      that solves frontline problems in healthcare for societies with limited resources by making use of Distributed
+      Ledger Technologies
+      (DLT's). </p>
+
+    <p> This project is presented in the BTP (LNMIIT).</p>
+    <p><a href="*" class="btn btn-primary btn-lg" role="button" target="_blank">Learn more</a></p>
+
+  </div>
+</div>
+<div id="content" class="container">
+
+<br><br><br>
+  <div class="row">
+    <center>
+        <h1 style="font-size:50px; color:black">How it works?</h1>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img style="margin: 20%" src="/img/offline.svg" alt="...">
+          <div class="caption">
+            <p>Digitize Health-care facilities allowing
+              notes to be recorded electronically - improving
+              quality, and reducing reliance on paper notes.</p>
+            <h1 style="font-size:80px">1</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img style="margin: 20%"src="/img/encryption.svg" alt="...">
+          <div class="caption">
+            <p>Create medical records to 
+              store sensitive data securely linked to  
+              a self-sovereign identity for patients based on the 
+              Ethereum Public Ledger  
+            </p>
+            <h1 style="font-size:80px">2</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img style="margin: 20%" src="/img/phone.svg" alt="...">
+          <div class="caption">
+            <p>Give every patient their own encrypted health
+                ‘passport’ that they can access offline from
+                any health-care facility in the network.</p>
+                <h1 style="font-size:80px">3</h1>
+              </div>
+        </div>
+      </div>
+  </div>
+  </center>
+
+</div>
+<br>
+  <div id="why-content" class=" no-padding lib-item" data-category="view">
+      <br><br>
+      <div class="lib-panel">
+          <div class="row box-shadow">
+              <div class="col-md-6">
+                  <img class="lib-img-show" src="https://images.unsplash.com/photo-1554796104-5c39d0551b52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80">
+              </div>
+              <div class="col-md-6">
+                  <div class="lib-row lib-header">
+                      <h1>Why HealthyVerse can bring high quality healthcare at no cost?</h1>
+                      <div class="lib-header-seperator"></div>
+                  </div>
+                  <div class="lib-row lib-desc">
+                      <p> More than 700 million people, or 11% of the world population, still live in extreme poverty and is struggling to fulfil the most basic needs such as education or health. Access to good health and well-being is a human right, and that is why HealthyVerse offers a new chance to ensure that everyone can access the highest standards of health and health care—not just the wealthiest.</p>
+
+                      <p>HealthyVerse provides a low cost, distributed technology able to aid in diagnosing patient illnesses based on past history and the patients’ complete health information. Medical records can also be created and updated to provide the last known information to the provider at the point of care. HealthyVerse provides a unique certification system to ensure each actual medical record is authentic, immutable and unhackable.</p>
+                      
+                      <p>Different from other Electronic Healthcare Records (EHR), HealthyVerse uses a hybrid mechanism to be able to work in communities with low technology or internet access. A typical patient’s medical record usually encompasses hundreds of pages and might even run into the thousands in the most extreme cases.</p>
+                      
+                      <p>Health-care facilities using HealthyVerse are able to generate a modular passport to patients or legal guardians to encompass identity, medical records and prescription in a single unfakable document developed by smart contracts and distributed technology.</p>       
+                    
+                      <legend></legend>
+                     
+                    
+                    </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="features-content" class="container">
+      <br><br>
+      <div class="row">
+        <center>
+            <h1 style="font-size:50px; color:black">Features</h1>
+          <div title="HealthyVerse passport grants accurate, up-to-date, and complete information about patients or legal guardians at the point of care" data-placement="top" data-toggle="tooltip" class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <br><img style="height:200px" src="/img/passport.svg" alt="...">
+              <div class="caption">
+                  <h2>E-Medical Records</h2>
+              </div>
+            </div>
+          </div>
+          <div title="HealthyVerse passport produces a blockchain certification of the patient's data that can be proven using the Ethereum Public Ledger through the passport validation guidelines" data-placement="top" data-toggle="tooltip" class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <br><img style="height:200px" src="/img/data.svg" alt="...">
+              <div class="caption">
+                  <h2>Blockchain certification</h2>
+              </div>
+            </div>
+          </div>
+          <div title="HealthyVerse passport provides an self-sovereign identity module based on the HealthyVerse smart contract where patients or legal guardians can have access to a self-sovereign identity built on top of the Ethereum Public Ledger" data-placement="top" data-toggle="tooltip" class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <br><img style="height:200px" style="height:20%" src="/img/id.svg" alt="...">
+              <div class="caption">
+                  <h2>Self-Sovereign Identity</h2>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <center>
+              <div title="HealthyVerse passport contains a health-care program implemented by a physician or other qualified health care practitioner in the form of detailed instructions that govern the plan of care for an individual patient" data-placement="bottom" data-toggle="tooltip" class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <br><img style="height:200px" src="/img/medicine.svg" alt="...">
+                    <div class="caption">
+                        <h2>Medical prescription</h2>
+                    </div>
+                  </div>
+                </div>
+            <div title="HealthyVerse passport is designed by core to in environments with low internet access or technological infrastructure. Healthcare practitioners can print in a paper the QR code of the encrypted passport where can be accessible offline" data-placement="bottom" data-toggle="tooltip" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <br><img style="height:200px" src="/img/wallet.svg" alt="...">
+                <div class="caption">
+                    <h2>Offline access </h2>
+                </div>
+              </div>
+            </div>
+            <div title="HealthyVerse passport is first encrypted and uploaded to IPFS. Then, from IPFS is encapsulated into a smart contract to remain immutable, safe and prove its authenticity using the passport validation guidelines" data-placement="bottom" data-toggle="tooltip" class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <br><img style="height:200px" src="/img/security.svg" alt="...">
+                <div class="caption">
+                  <h2>Immutable - Encrypted</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <p style="color:gray; font-size:18px"><i> 
+            Ensuring healthy lives and promoting wellbeing for all at all ages is important to building prosperous societies. 
+            However, despite great strides in improving people's health and wellbeing in recent years, inequalities in healthcare access still persist. 
+            HealthyVerse is designed by core to overcome such inequalities by providing a high quality healt-care management system at a minimum cost.
+        </i></p>
+      </center>
+    
+      <br>
+  </div>
+  <div id="demo-content" class="container">
+      <br><br>
+      <center>
+      <div class="row">
+            <h1 style="font-size:50px; color:black">Try a Demo</h1>
+            <br>
+            <div class="row row-margin-bottom">
+                <div class="col-md-5 no-padding lib-item" data-category="view">
+                    <div class="lib-panel">
+                        <div class="row box-shadow">
+                            <div class="col-md-6">
+                                <img class="lib-img-show" src="img/doctor.svg">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="lib-row lib-header">
+                                    <h3>Doctor</h3>
+                                    <div class="lib-header-seperator"></div>
+                                    <ul>
+                                      <li style="font-size:13px">Generate Passports</li>
+                                      <li style="font-size:13px">Review Passports validation guidelines</li>
+                                      <li style="font-size:13px">View other qualified staff</li>
+                                      <li style="font-size:13px">Update doctor profile</li>
+                                    </ul>
+                                </div>
+                                <div title="Start demo as a doctor user" data-placement="bottom" data-toggle="tooltip" class="lib-row lib-desc">
+                                    <div class="lib-header-seperator"></div>
+                                    <button data-toggle="modal" data-target="#start-doctor-modal" class="btn btn-primary" style="width:100%">START</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 no-padding lib-item" data-category="ui">
+                    <div class="lib-panel">
+                        <div class="row box-shadow">
+                            <div class="col-md-6">
+                                <img class="lib-img" src="img/admin.svg">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="lib-row lib-header">
+                                    <h3>Admin</h3>
+                                    <div class="lib-header-seperator"></div>
+                                </div>
+                                <ul>
+                                    <li style="font-size:13px">Add users</li>
+                                    <li style="font-size:13px">Delete users</li>
+                                    <li style="font-size:13px">Review users</li>
+                                    <li style="font-size:13px">Review Passports validation guidelines</li>
+                                    <li style="font-size:13px">Deploy Smart Contract</li>
+                                  </ul>
+                                <div title="Start demo as an admin user" data-placement="bottom" data-toggle="tooltip" class="lib-row lib-desc">
+                                  <div class="lib-header-seperator"></div>
+                                  <button data-toggle="modal" data-target="#start-admin-modal" class="btn btn-primary" style="width:100%">START</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+  </div>
+
+  <div id="start-doctor-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Start as a doctor</h4>
+          </div>
+          <div class="modal-body">
+            <center>
+            <img style="width:65%" src="img/doctor.gif" alt="">
+              <div class="input-group input-group-lg">
+                  <span class="input-group-addon" id="sizing-addon1">Metamask Wallet</span>
+                  <input id="doctor-wallet" type="text" class="form-control" placeholder="Eg: 0x3n5J234bX5..."
+                    aria-describedby="sizing-addon1">
+                </div>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button id="start-doctor" type="button" class="btn btn-success" data-dismiss="modal">START</button>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+  <div id="start-admin-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Start as a admin</h4>
+          </div>
+          <div class="modal-body">
+            <center>
+            <img style="width:65%" src="img/admin.gif" alt="">
+              <div class="input-group input-group-lg">
+                  <span class="input-group-addon" id="sizing-addon1">Metamask Wallet</span>
+                  <input id="admin-wallet" type="text" class="form-control" placeholder="Eg: 0x3n5J234bX5..."
+                    aria-describedby="sizing-addon1">
+                </div>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button id="start-admin" type="button" class="btn btn-success" data-dismiss="modal">START</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+
+<script>
+  $(document).ready(function () {
+        //Wizard
+        $('#learnMore').click(function() {
+
+          $('html, body').animate({
+            scrollTop: $("#content").offset().top
+          }, 1500);
+        });
+
+      });
+
+      $("#start-admin").on("click", function(){
+        var request = $.ajax({
+              url: "/admin-demo",
+              data: {
+                wallet: $("#admin-wallet").val()
+              },
+              type: 'post',
+              headers: {
+                'x-csrf-token': $('[name=_csrf]').val()
+              },
+              dataType: 'json'
+            })
+      
+            request.done(function (data) {
+              toast(data.type, data.msg);
+              $("#login").fadeIn()
+            });
+            request.fail(function (jqXHR, textStatus) {
+              console.log('error', textStatus, jqXHR);
+            });
+      })
+
+      $("#start-doctor").on("click", function(){
+        var request = $.ajax({
+              url: "/doctor-demo",
+              data: {
+                wallet: $("#doctor-wallet").val()
+              },
+              type: 'post',
+              headers: {
+                'x-csrf-token': $('[name=_csrf]').val()
+              },
+              dataType: 'json'
+            })
+      
+            request.done(function (data) {
+              toast(data.type, data.msg);
+              $("#login").fadeIn()
+            });
+            request.fail(function (jqXHR, textStatus) {
+              console.log('error', textStatus, jqXHR);
+            });
+      })
+</script>
+@endsection
